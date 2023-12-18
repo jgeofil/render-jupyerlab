@@ -1,0 +1,12 @@
+services:
+  - name: jupyterlab
+    type: web
+    region: ohio
+    runtime: python
+    plan: pro max
+    buildCommand: ./build.sh
+    startCommand: ./start.sh
+    
+    
+    
+    
